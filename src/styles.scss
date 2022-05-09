@@ -1,0 +1,46 @@
+@import "~bootstrap";
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.types{
+  width: 75px;
+  height: 35px;
+  margin-left: 15px;
+  margin-bottom: 4px;
+}
+.names{
+  width: 120px;
+  height: 75px;
+}
+.btns{
+  width: 110px;
+  height: 50px;
+}
+.upper-btns{
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lower-btns{
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.down-btns{
+  width: 125px;
+  height: 50px;
+}
+.box{
+  box-shadow: 2px 2px 5px #888888;
+}
+
+flex-box{
+  width: 100%;
+  text-align: center;
+}
